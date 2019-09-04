@@ -7,11 +7,16 @@ public class Car
     private int numPassengers;
     private double amountOfGas;
 
-    public car()
+    public Car()
     {
         model = "Mustang";
         color = Color.YELLOW;
-        numPassengers = 2
+        numPassengers = 2;
         amountOfGas = 20.5;
+    }
+
+    public String toString()
+    {
+        return "This is my Mustang";
     }
 }

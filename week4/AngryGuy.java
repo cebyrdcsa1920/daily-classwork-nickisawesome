@@ -8,12 +8,12 @@ public class AngryGuy
     public AngryGuy()
     {
         model = "forces";
-        color = Color.BLACK
-        numOfPairs = 1
-        size = 13.5
+        color = Color.BLACK;
+        numOfPairs = 1;
+        size = 13.5;
     }
     public String toString()
     {
-        return "These are my black forces"
+        return "These are my black forces";
     }
 }

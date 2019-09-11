@@ -36,9 +36,19 @@ public class Car
     {
         return amountOfGas;
     }
-
+    /**
+     *
+     * Fills up the gas tank
+     *
+     * @param amount gas to add to tank
+     */
+    public void fillUpGasTank(double amount)
+    {
+        amountOfGas = amount;
+    }
     public String toString()
     {
         return "This is my Mustang";
     }
+
 }

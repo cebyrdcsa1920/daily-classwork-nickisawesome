@@ -12,9 +12,18 @@ public class Car
     {
         model = "Mustang";
         color = Color.YELLOW;
-        numPassengers = 2;
-        amountOfGas = 25.5;
-        mpg = 20.5;
+        numPassengers = 4;
+        amountOfGas = 20;
+        mpg = 5;
+    }
+
+    public Car(String model, Color color, int numPassengers, double amountOfGas, double mpg)
+    {
+        this.model = model;
+        this.color = color;
+        this.numPassengers = numPassengers;
+        this.amoutOfGas = amountOfGas;
+        this.mpg = mpg;
     }
 
     /**
@@ -44,7 +53,7 @@ public class Car
      */
     public void fillUpGasTank(double amount)
     {
-        amountOfGas = amount;
+        amountOfGas += amount;
     }
     public String toString()
     {

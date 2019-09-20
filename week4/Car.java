@@ -22,7 +22,7 @@ public class Car
         this.model = model;
         this.color = color;
         this.numPassengers = numPassengers;
-        this.amoutOfGas = amountOfGas;
+        this.amountOfGas = amountOfGas;
         this.mpg = mpg;
     }
 
